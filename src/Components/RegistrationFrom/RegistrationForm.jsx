@@ -25,6 +25,7 @@ import { UserContext } from "../../App";
                 email:data.email,
                 description:data.description,
                 work:data.work,
+                date:data.date,
                 haveImg:false
             })
         })

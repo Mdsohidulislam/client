@@ -14,21 +14,21 @@ const Footer = () => {
                 <img src={logos[1]} alt=""/>
             </div>
             <div className="infos col-12 col-md-4 col-lg-3 p-3">
-                <p>About Online food</p>
+                <p>About Volunteer network</p>
                 <p>Read our blog</p>
-                <p>Sign up to deliver</p>
-                <p>Add your restaurant</p>
+                <p>Sign up to work</p>
+                <p>Add your volunteer team</p>
             </div>
             <div className="contact col-12 col-md-4 col-lg-3  p-3">
                 <p>Get help</p>
                 <p>Read FAQs</p>
                 <p>View all cities</p>
-                <p>Restaurants near me</p>
+                <p>Volunteer network near me</p>
             </div>
         </div>
         <div className="footer container d-flex flex-wrap">
             <div className="copyright col-12 col-md-6">
-                <p style={{color:'gray'}}>copyright©2020 Online Food</p>
+                <p style={{color:'gray'}}>copyright©2020 Volunteer network.All right reserve.</p>
             </div>
             <div className="privacy col-12 col-md-6 d-flex justify-content-center">
                 <p className='pl-3'>Privacy Policy</p>
