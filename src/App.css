@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.dot{
+  color: red;
+}
+.dott{
+  color: aqua;
+}
+h1{
+  color: red;
+  text-shadow: 3px 3px 3px darkgreen;
+  margin: 100px 50px;
+}
+.hImg{
+  height: 25px;
+  border-radius: 25px;  
+  margin-left: 20px;   
+}
+.userDiv{ 
+  height: 400px;
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+.smallStyle{
+  color: #0066ff;
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.err{
+  color: red;
+  font-style: italic;
+  text-align: center;
+}
+.success{
+  color: darkgreen;
+  font-style: italic;
+  text-align: center;
+}
+

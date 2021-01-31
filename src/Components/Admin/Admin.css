@@ -1,0 +1,9 @@
+.AdminLink{
+    font-weight: 600;
+    font-size: 17px;
+    color: black;
+}
+.AdminLink:hover{
+    color: black;   
+    text-decoration: none;
+}

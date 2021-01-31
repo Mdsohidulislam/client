@@ -1,0 +1,92 @@
+
+.headerContainer .search{ 
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.Link{
+    color: grey;
+    font-weight: 600;
+}
+
+.Link:hover{
+    text-decoration: none;
+}
+
+.headerContainer .search img{ 
+    width: 100%; 
+    height: 400px;
+    opacity: .5;
+}
+.headerContainer .search .h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+
+}
+
+.headerTitle{
+        background: -webkit-linear-gradient(blue, #E00EDC);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+}
+
+
+.headerSearch{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 7px 110px 7px 10px; 
+    font-weight: 600;
+}
+.headerSearchBtn{
+    height: 34px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, blue,#E00EDC);
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 7px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 29px;
+    bottom: 3px;
+}
+
+.h5 .borders{
+    padding: 10px 3px 10px 3px;
+    background-color: black;
+    height: 46px;
+    border-radius: 23px;
+    background: linear-gradient(to right,blue,aqua);
+}
+
+
+
+.hBtn{ 
+    padding: 7px 60px; 
+    border: none;
+    color: white;
+    width: 100%;
+}
+.registration{
+    background: linear-gradient(to right,blue,#ff00ff); 
+}
+.admin{
+    background: linear-gradient(to right,blue,#ff00ff);
+}
+.over{
+    border: none;
+    padding: 3px;
+    background: linear-gradient(to right,aqua,blue);
+    margin-left: 10px; 
+}

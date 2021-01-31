@@ -1,0 +1,32 @@
+.card{
+    cursor: pointer;
+    height: 250px;
+    width: 200px;  
+    text-align: center;
+    position: relative; 
+}
+.card img{
+    height: 250px;
+    width: 200px; 
+}
+.card .info{
+    padding: 5px;
+    position: absolute;
+    bottom: -2px;
+    width: 200px;
+    height: 60px;
+    border-radius: 0 0 7px 7px;
+    /* background-color: #9933ff; */
+    background: linear-gradient(to right,#ff00ff,#9933ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+} 
+.info:hover{
+    display: none;    
+}
+.card:hover{
+    box-shadow: 10px 10px  10px black;
+    transition: .2s;
+}

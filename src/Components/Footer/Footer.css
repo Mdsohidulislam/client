@@ -1,0 +1,21 @@
+.footer_container{
+    background-color: #191919;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_container p {
+    cursor: pointer;
+}
+.half img{
+    height: 40px;
+}
+
+@media only screen and (max-width: 770px) {
+    .infos,.contact{
+        text-align: center;
+    }
+    .copyright,.privacy{
+        text-align: center;
+    }
+  }
